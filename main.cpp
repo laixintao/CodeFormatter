@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <dir.h>
 using namespace std;
 
 
