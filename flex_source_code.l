@@ -1,8 +1,15 @@
+%{
 #include <iostream>
 #include <fstream>
 using namespace std;
+%}
+
+%%
+
+[\n]+ cout<<endl;
 
 
+%%
 
 int main(int argc,char *argv[]){
 
@@ -11,12 +18,10 @@ int main(int argc,char *argv[]){
     const char * dest_file_name="dest.txt";
     freopen(file_name,"r",stdin);
     freopen(dest_file_name,"w",stdout);
-
-    //开始读入字符  处理
-    string temp;
-    while(cin>>temp)
-        cout<<temp;
+    yylex();
     fclose(stdout);
+    return 0;
+}
 
+int yywrap(){return 1;}
 
-return 0;}
