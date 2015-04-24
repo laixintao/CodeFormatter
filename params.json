@@ -1,0 +1,1 @@
+{"name":"Codeformatter","tagline":"Make your code more readable.","body":"## 代码格式化！\r\n\r\n这个项目主要使用flex，目的是格式化代码，使代码具有更高的可读性。\r\n\r\n## 使用方法\r\n\r\n目前的版本支持在windows的cmd上运行（因为要接收参数）。\r\n\r\n将编译好的exe执行文件拷贝要处理的文件所在文件夹。\r\n控制台切换到此文件夹。\r\n程序名 处理文件名。\r\n生成的“dest.txt”就是目标文件。","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
